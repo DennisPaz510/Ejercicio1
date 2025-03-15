@@ -1,7 +1,44 @@
-.rectangulo{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+.rectangulo {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(102, 95, 95);
+    border-radius: 10px;
+}
+.circulo{
     width: 100px;
     height: 100px;
-    background-color: rgb(73, 65, 65);
-    top:-20px;
-    
+    background-color: #ff8400;
+    border-radius: 50%;
+    position: relative;
+    top: -35px;
+    right:150px;
+    opacity: 0.2; 
+}
+.minirectangulo{
+    width: 50px;
+    height: 40px;
+    background-color: hsla(31, 100%, 50%, 0);
+    border-radius: 10px;
+    position: relative;
+    top: -35px;
+    right:228px;
+    border: #ff8400 solid 6px;
+}
+.colamensaje{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ff8400;
+    position: relative;
+    transform: rotate(60deg);
+    top: -10px;
+    right:289px;
 }
